@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>The Basics of Astrophotography</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/night.css" id="theme">
+		<link rel="stylesheet" href="css/theme/custom-night.css" id="theme">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -46,9 +46,7 @@
 					<script type="text/template">
 						## The Basics of Astrophotography
 
-						#### Or: how to take sweet pics of the night sky and impress people on Instagram
-
-						##### Corey Peterson | @clpetersonucf | cpeterson.me
+						How to take sweet pics of the night sky and impress people on Instagram
 					</script>
 				</section>
 				<section>
@@ -81,27 +79,29 @@
 					</section>
 					<section data-markdown>
 						<script type="text/template">
-							<img class="no-border" src="img/moon_tiny.png" alt="Waxing Gibbous Moon" />
+							<img src="img/moon_tiny.png" alt="Waxing Gibbous Moon" />
 
 							Perhaps unsurprisingly, the Moon is the easiest night sky object to photograph. In many cases, simply holding a smartphone camera to the eyepiece of a telescope will yield decent results.
 
-							*This was taken with a Canon T3 attached to a dobsonian telescope.*
+							######This was taken with a Canon T3 attached to a dobsonian telescope.
 						</script>
 					</section>
 					<section data-markdown>
 						<script type="text/template">
-							<img class="no-border" src="img/jupiter.png" alt="Jupiter" />
+							<img class="inline" src="img/jupiter.png" alt="Jupiter" />
 
-							<img class="no-border" src="img/saturn.png" alt="Saturn" />
+							<img class="inline" src="img/saturn.png" alt="Saturn" />
 
 							Jupiter is generally the brightest object in the night sky after the Moon and Venus, while Saturn is slightly dimmer with a noticeable tan tinge. A low power telescope yields an impressive view of Jupiter's cloud bands and Saturn's rings.
 						</script>
 					</section>
 					<section data-markdown>
 						<script type="text/template">
-							<img class="no-border" src="img/wide-field-stars.png" alt="Wide Field with Orion" />
+							<img src="img/wide-field-stars.png" alt="Wide Field with Orion" />
 
 							Astrophotography isn't limited to close up shots of distant celestial objects. A professional camera and lens can yield impressive wide field shots when mounted on a tripod.
+
+							######Taken with a Canon T3 and an 18-55mm lens.
 						</script>
 					</section>
 					<section data-markdown>
@@ -127,8 +127,6 @@
 
 							While not required for astrophotography, telescopes have the distinct advantage of being useful with or without a camera attached.
 
-							Before you start snapchatting sweet pics of #saturn #rings #whoa, you should become familiar with navigating the night sky and understanding how a telescope works.
-
 							Two attributes determine the general use of a telescope: the **optics** it employs and the **mount** it rests on.
 						</script>
 					</section>
@@ -136,26 +134,178 @@
 						<script type="text/template">
 							All telescope optics work under the same general principle: collect and focus distant light to magnify and enhance a celestial object.
 
-							* *Refractor* telescopes focus light through a series of lenses before they enter the eyepiece.
+							Telescopes used for amateur astronomy and astrophotography tend to fall into one of three categories: *refractors*, *reflectors*, and *catadioptric*.
 
-							* *Reflector* telescopes focus light using curved mirrors.
+							A number of factors determine the effective "power" of a telescope, but the most important attribute is its *aperture* - the diameter of its primary lens or mirror.
 
-							* *Catadioptric* telescopes use a combination of specially shaped mirrors and lenses to focus light.
-
-							A number of factors affect the effective "power" of a telescope, but the single most important attribute is *aperture* - the diameter of the primary lens or mirror.
 						</script>
 					</section>
 					<section data-markdown>
 						<script type="text/template">
 							The telescope mount affects both its ease of use and its effectiveness in viewing various targets, especially over time.
 
-							* An *alt-azimuth* mount is simple and straightforward: the tube can pitch up and down (a change in *altitude*) and rotate to face a different direction on the horizon (a change in *azimuth*).
+							<img src="img/dobsonian-telescope.png" alt="Dobsonian Telescope" />
 
-							* An *equatorial* mount is aligned so that one axis of its rotation matches the rotation of the Earth. It can therefore easily match the *sidereal* motion of stars, or their apparent motion due to the rotation of the Earth.
+							Most Dobsonian Telescopes, like this one, use an *alt-azimuth* mount. They can freely pitch and rotate along two axes.
 
-							Many equatorial mounts are equipped with a motorized drive that matches the rotation of the Earth, allowing it to track stars and objects across the sky.
+							###### Source: Wikimedia Commons
 						</script>
 					</section>
+					<section data-markdown>
+						<script type="text/template">
+							An *equatorial* mount also rotates along two axes, except that one is aligned with the rotational axis of the Earth. In astronomical terms, this axis is known as *right ascension*.
+
+							<img src="img/eq-telescope.jpg" alt="A Maksutov-Cassegrain on a German eq mount" />
+
+							Equatorial mounts, while more difficult to set up and use, are better at tracking objects across the sky.
+
+							###### Source: Wikimedia Commons
+						</script>
+					</section>
+				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							### It's Not the Stars - it's You
+
+							Bright objects like the Moon and planets don't require long exposures to get good data.
+
+							When you try to photograph more distant objects, you'll likely discover another problem: they tend to move.
+
+							Much like trying to photograph your cat, taking long exposures of distant objects will result in blurring or streaking.
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							Stars slowly march across the sky due to the rotation of the Earth. To get a decent exposure, your equipment must be able to track them.
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							With an *alt-azimuth* mount, like a camera tripod or most Dobsonian telescopes, tracking stars requires movement along two different axes.
+
+							<img src="img/sky-altaz-grid.png" alt="Sky with Alt-Azimuth Coordinate Grid" />
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							An *equatorial* mount, although less intuitive, is better suited to tracking stars. One axis is aligned with Polaris, which corresponds to the northern pole on the celestial sphere.
+
+							<img src="img/sky-eq-grid.png" alt="Sky with Equatorial Coordinate Grid" />
+
+							Stars move along the axis of right ascension. Many equatorial mounts are motorized to match the rotation of the Earth along this axis, allowing a camera to remain fixed on an object for long periods of time.
+						</script>
+					</section>
+				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							## The Right Light
+
+							While there are special cameras dedicated to astrophotography - specialized webcams and astronomical CCD cameras - your run-of-the-mill DSLR or professional camera will work just fine.
+
+							The principles of *shutter speed*, *ISO*, and *aperture* (when not using a telescope) still apply. However, astrophotographers employ some other techniques to collect more data.
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							Many astrophotographers use *filters* to block or single out specific wavelengths to enhance their pictures.
+
+							<img src="img/mars-filter.png" alt="Mars Filter" />
+
+							* *Neutral Density Filters* are commonly used to photograph the Moon. Through a telescope, the Moon is extremely bright, and these filters help reduce glare and enhance contrast.
+							* *Color Filters* are often used for planetary photography. They help reveal features that may be lost under natural conditions.
+							* *Nebular Filters* often limit light to a very narrow band of wavelengths. They are often used on nebulae which emit specific wavelengths based on their chemical composition.
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							The wavelengths you collect can significantly affect how a celestial object appears.
+
+							Consider the Crab Nebula, observed at various wavelengths including radio, infrared, visible light, and ultraviolet.
+
+							<img src="img/crab-nebula.png" alt="Various wavelengths of the Crab Nebula" />
+
+							###### Source: Brian Koberlein, http://briankoberlein.com/2014/04/04/get-see/
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							### When in Doubt, More Pixels
+
+							For planetary and lunar photography, you can often get excellent results by using the video mode on your camera.
+
+							Instead of a handful of images, shooting video effectively provides you with hundreds or thousands of individual frames. The best frames can be *stacked* together to create a quality image.
+						</script>
+					</section>
+				</section>
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+							### From Raw Data to Sweet Pics on Instagram
+
+							Collecting pictures is only half the journey: astrophotographers can employ a large amount of post-processing to squeeze the data out of every pixel.
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							*Stacking* is commonly used in astrophotography. It combines the best data from a large number of images together into one final image. Stacking is an excellent way to reduce noise in lunar or planetary photos.
+
+							<img src="img/moon_stacked_example.png" alt="Example of Lunar Image Stacking" />
+
+							As an example, this image of the lunar surface was created by stacking approximately 1500 individual frames.
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							There are numerous free programs you can use to stack and post-process your images.
+
+							* *PIPP (Planetary Image Pre-Processor)* helps preprocess frames from video files for stacking.
+							(https://sites.google.com/site/astropipp/)
+							* *Autostakkert! 2* is a small, efficient, easy to use program for image stacking. (http://www.autostakkert.com/)
+							* *Registax* provides a suite of tools for stacking and post-processing astro images. (http://www.astronomie.be/registax/)
+						</script>
+					</section>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+						## So Where Do I Start?
+
+						You don't need to drop thousands of dollars on equipment to start taking great pictures.
+
+						Get familiar with the sky first. A beginner's telescope costs less than an iPad Mini.
+
+						An entry-level DSLR is $3-400, or even cheaper if you stalk eBay or camera deal sites.
+					</script>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+						## Resources and Additional Research
+
+						*The Backyard Astronomer's Guide* by Terrence Dickinson & Alan Dyer is an excellent book for getting started on astrophotography and amateur astronomy. (http://amzn.com/1554073448)
+
+						There are numerous subreddits dedicated to astrophotography and helping beginners learn the ropes:
+
+						* reddit.com/r/astrophotography
+						* reddit.com/r/astronomy
+						* reddit.com/r/telescopes
+
+						Astrobin - it's like Flickr, but dedicated to astrophotography. (http://www.astrobin.com/)
+					</script>
+				</section>
+				<section data-markdown>
+					<script type="text/template">
+						This presentation is available any time at **[cpeterson.me/astrophotography](http://cpeterson.me/astrophotography)**
+
+						Get in touch with me elsewhere:
+
+						* [@clpetersonucf (Twitter)](http://twitter.com/CLPetersonUCF)
+						* [Google+](http://plus.google.com/+CoreyPeterson)
+						* [Flickr](http://flickr.com/people/clpetersonucf/)
+						* [Astrobin](http://astrobin.com/users/clpetersonucf)
+
+						**Thanks!**
+					</script>
 				</section>
 			</div>
 
@@ -175,7 +325,7 @@
 				center: true,
 
 				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
 
 				// Parallax scrolling
 				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
